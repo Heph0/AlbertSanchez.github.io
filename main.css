@@ -4,7 +4,7 @@ h1
 	text-align:center;
 }
 
-#container
+#outercontainer
 {
 	position: absolute;
 	padding: 0 20px 0 20px;
@@ -16,6 +16,14 @@ h1
 	width: 1400px;
 	height: auto;
 }
+
+#container
+{
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+
 
 .innercontainer
 {
