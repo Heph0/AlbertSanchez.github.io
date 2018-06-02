@@ -4,6 +4,16 @@ h1
 	text-align:center;
 }
 
+footer
+{
+	background-color:yellow;
+}
+
+.fcenter
+{
+	text-align:center;
+}
+
 #outercontainer
 {
 	position: absolute;
